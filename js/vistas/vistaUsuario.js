@@ -39,7 +39,7 @@ VistaUsuario.prototype = {
         listaParaGrafico.push([elemento.textoRespuesta,elemento.cantidad]);
       });
       contexto.dibujarGrafico(clave.textoPregunta, listaParaGrafico);
-    })
+    });
   },
 
 
@@ -53,7 +53,7 @@ VistaUsuario.prototype = {
       //agregar a listaPreguntas un elemento div con valor "clave.textoPregunta", texto "clave.textoPregunta", id "clave.id"
       var respuestas = clave.cantidadPorRespuesta;
       contexto.mostrarRespuestas(listaPreguntas,respuestas, clave);
-    })
+    });
   },
 
   //muestra respuestas

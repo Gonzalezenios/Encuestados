@@ -56,7 +56,7 @@ VistaAdministrador.prototype = {
 
       $('[name="option[]"]').each(function() {
         //completar
-      })
+      });
       contexto.limpiarFormulario();
       contexto.controlador.agregarPregunta(value, respuestas);
     });
