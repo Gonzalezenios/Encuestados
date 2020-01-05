@@ -64,7 +64,10 @@ Modelo.prototype = {
 
   //Agrega respuesta
   agregarRespuesta: function (idPregunta, textoRespuesta) {
-    const nuevaRespuesta = { 'textoRespuesta': textoRespuesta,'cantidadRespuestas': 0 };
+    const nuevaRespuesta = {
+      'textoRespuesta': textoRespuesta,
+      'cantidadRespuestas': 0
+    };
     const pregunta = this.buscarPregunta(idPregunta);
     pregunta.cantidadPorRespuesta.push(nuevaRespuesta);
     this.guardar();
