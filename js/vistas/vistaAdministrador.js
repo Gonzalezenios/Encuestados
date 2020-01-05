@@ -73,10 +73,7 @@ VistaAdministrador.prototype = {
 
       $('[name="option[]"]').each(function () {
         //completar
-        respuestas.push({
-          textoRespuesta: $(this).val(),
-          cantidadRespuestas: 0
-        });
+        respuestas.push({ textoRespuesta: $(this).val(), cantidadRespuestas: 0 });
       });
       contexto.limpiarFormulario();
       contexto.controlador.agregarPregunta(value, respuestas);
@@ -129,10 +126,7 @@ VistaAdministrador.prototype = {
 
       $('[name="option[]"]:visible').each(function () {
         //completar
-        respuestas.push({
-          textoRespuesta: $(this).val(),
-          cantidadRespuestas: 0
-        });
+        respuestas.push({textoRespuesta: $(this).val(), cantidadRespuestas: 0 });
       });
       contexto.limpiarFormulario();
       contexto.controlador.editarPregunta(idPregunta, nombre, respuestas);

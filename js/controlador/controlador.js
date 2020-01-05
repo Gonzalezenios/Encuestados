@@ -17,11 +17,11 @@
         if (repsFil.length > 0) {
           this.modelo.agregarPregunta(pregunta, repsFil);
         } else {
-          alert('La pregunta debe tener Respuestas!!');
+          alert('La pregunta debe tener Respuesta!!');
         }
 
       } else {
-        alert('La pregunta debe tener Respuestas!!');
+        alert('La pregunta debe tener Respuesta!!');
       }
     },
     borrarPregunta: function (id) {

@@ -113,7 +113,7 @@ VistaUsuario.prototype = {
       var ubicacionGraficos = contexto.elementos.graficosDeTorta;
       var id = (nombre.replace(/\W/g, '')).split(' ').join('') + '_grafico';
       if ($('#' + id).length) {
-        $('#' + id).remove()
+        $('#' + id).remove();
       }
       var div = document.createElement('div');
       ubicacionGraficos.append(div);
