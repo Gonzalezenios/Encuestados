@@ -52,6 +52,10 @@ ul {
 	margin: 80px auto 50px;
 }
 
+.autor {
+	text-align: center;
+}
+
 .logo-acamica {
 	width: 103px;
 	height: 21px;
@@ -86,7 +90,7 @@ nav ul li a {
 	display: inline-block;
 	padding: 0 20px;
     color: #3A4043;
-    // font-weight: bold;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
